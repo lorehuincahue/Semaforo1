@@ -1,12 +1,36 @@
+#container{
+    width: 180px;
+    height: 350px;
+    background: black;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-top: 5px;
+    border-radius: 25px;
+}
 
-/* 
+.redlight{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: red;
+    margin-left: 42px;
+    padding-top: 3px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.yellowlight{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: yellow;
+    margin-left: 42px;
+    padding-top: 8px;
+}
 
-*/
+.greenlight{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: green;
+    margin-left: 42px;
+    padding-top: 13px;
+}
