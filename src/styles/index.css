@@ -12,7 +12,7 @@
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    background: red;
+    background: rgba(255, 0, 0, 0.374);
     margin-left: 42px;
     padding-top: 3px;
 }
@@ -21,12 +21,39 @@
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    background: yellow;
+    background: rgba(255, 255, 0, 0.358);
     margin-left: 42px;
     padding-top: 8px;
 }
 
 .greenlight{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgba(0, 128, 0, 0.315);
+    margin-left: 42px;
+    padding-top: 13px;
+}
+
+.encendidored{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgb(255, 0, 0);
+    margin-left: 42px;
+    padding-top: 3px;
+}
+
+.encendidoyellow{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: yellow;
+    margin-left: 42px;
+    padding-top: 8px;
+}
+
+.encendidogreen{
     width: 100px;
     height: 100px;
     border-radius: 100%;
