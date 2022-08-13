@@ -16,6 +16,8 @@ return(
                 setRed (false)
             } else {
                 setRed(true)
+                setGreen(false)
+                setYellow(false)
             }
     }} className={redlight==true ? "encendidored" : "redlight"}></div>
 
@@ -26,6 +28,8 @@ return(
                 setYellow (false)
             } else {
                 setYellow(true)
+                setGreen(false)
+                setRed(false)
             }
     }} className={yellowlight==true ? "encendidoyellow" : "yellowlight"}></div>
                
@@ -36,6 +40,8 @@ return(
             setGreen (false)
         } else {
             setGreen(true)
+            setRed(false)
+            setYellow(false)
         }
     }}  className={greenlight==true ? "encendidogreen" : "greenlight"}></div>
     </div>
